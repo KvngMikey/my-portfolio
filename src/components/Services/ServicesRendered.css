@@ -1,0 +1,31 @@
+.service-rendered-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  text-align: justify;
+}
+
+.picture {
+  width: 60px;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28.13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.body {
+  color: #4d4d4d;
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  width: 36%;
+}

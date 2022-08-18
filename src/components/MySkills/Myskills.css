@@ -1,0 +1,28 @@
+.myskills-wrapper {
+  display: flex;
+  margin-right: 40px;
+  margin-bottom: 5px;
+}
+
+.header-wrapper {
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.icon {
+  color: #2351dc;
+  font-size: 65px;
+  background-color: #edf1fc;
+  border-radius: 15px;
+  height: 78px;
+}
+
+.header {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 33px;
+  letter-spacing: -0.02em;
+  text-align: left; */
+  color: #000000;
+}
