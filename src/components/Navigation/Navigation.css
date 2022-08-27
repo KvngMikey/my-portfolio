@@ -1,0 +1,16 @@
+.name {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px !important;
+  line-height: 41px;
+  margin-right: 60px !important;
+}
+
+.nav-link {
+  font-family: 'Manrope';
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #000000 !important;
+  margin-right: 30px;
+}

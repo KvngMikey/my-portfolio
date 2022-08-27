@@ -10,13 +10,14 @@ import {
   FaJsSquare,
   FaWordpress,
 } from 'react-icons/fa';
+import { SiTypescript } from 'react-icons/si';
 import master from '../components/assets/master-level.svg';
 import intermediate from '../components/assets/intermediate-level.svg';
 import './Skills.css';
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skills-section">
       <h2 className="skills-header"> My Skills </h2>
       <p className="sub-header"> Here are a few skills I possess </p>
 
@@ -35,6 +36,11 @@ const Skills = () => {
         <Myskills
           icon={<FaWordpress />}
           header="Wordpress"
+          level={intermediate}
+        />
+        <Myskills
+          icon={<SiTypescript />}
+          header="Typescript"
           level={intermediate}
         />
       </div>

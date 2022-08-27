@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
-import Navbar from './components/Navbar/Navbar';
+import Navigation from './components/Navigation/Navigation';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
@@ -10,8 +10,8 @@ import Skills from './pages/Skills';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
+      <div className="App container">
+        <Navigation />
       </div>
 
       <Routes>

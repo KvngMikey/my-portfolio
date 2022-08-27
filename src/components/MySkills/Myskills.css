@@ -1,20 +1,20 @@
 .myskills-wrapper {
   display: flex;
   margin-right: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .header-wrapper {
   text-align: justify;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .icon {
   color: #2351dc;
-  font-size: 65px;
-  background-color: #edf1fc;
-  border-radius: 15px;
-  height: 78px;
+  font-size: 50px;
+  /* background-color: #edf1fc;
+  border-radius: 15px; */
+  height: 70px;
 }
 
 .header {
