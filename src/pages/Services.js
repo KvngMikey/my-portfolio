@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div className="">
       <h2 className="services-header"> Services I Render: </h2>
-      <p className="sub-header">
+      <p className="services-sub-header">
         Here are some technologies that I have adopted extensively
       </p>
 
@@ -18,23 +18,23 @@ const Services = () => {
         <ServicesRendered
           image={training}
           title="Training"
-          body="I offer instructor-led training in a way that fits with the way you work."
+          body="I offer personalized, hands-on training to prospects, equipping them with the capacity required to perform a specific job."
         />
 
         <ServicesRendered
           image={technical}
           title="Technical Writing"
-          body="I help channel and transfer information between two or more parties, through any medium that best facilitates the transfer and comprehension of the information."
+          body="I possess good written communication skills and ability to convey complex information through any medium in simple, clear terms; to facilitate the easy transfer and comprehension of information."
         />
         <ServicesRendered
           image={responsive}
           title="Responsive Web Design"
-          body="I help design mobile-friendly, worldclass websites and web-applications that helps scales your bussiness and helps user experience get better."
+          body="I creatively design applications per world-class standards. These applications are designed to have a flexible form in order to ensure consistency in the delivery of your contents, adaptation to any screen size and a better user experience."
         />
         <ServicesRendered
           image={webapp}
           title="Web-App Development"
-          body="I offer Information technology consulting as a field of activity focused on advising organizations on how best to use information technology in achieving their business objectives."
+          body="As a web-app developer, I write well-designed, testable, efficient and reuseable codes by using the best software development practices. I have 3 years experience optimizing user interaction and experience and improving workflow."
         />
       </div>
     </div>

@@ -14,3 +14,15 @@
   color: #000000 !important;
   margin-right: 30px;
 }
+
+.navbar {
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar-sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  animation: moveDown 0.5s ease-in-out;
+}

@@ -2,15 +2,16 @@
   font-family: Manrope;
   font-size: 40px;
   font-weight: 600;
-  margin: 12px;
+  /* margin: 12px; */
   /* line-height: 66px;
   letter-spacing: -0.03em; */
   text-align: left;
   color: #000000;
-  margin-left: 0;
+  /* margin-left: 0; */
+  margin-bottom: 10px;
 }
 
-.sub-header {
+.services-sub-header {
   font-family: Manrope;
   font-size: 20px;
   font-weight: 500;
@@ -18,7 +19,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #4d4d4d;
-  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .services-section {

@@ -8,7 +8,7 @@ import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import pic from '../components/assets/mypic.JPG';
 const Homepage = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="deet-image-wrapper">
         <div className="details-wrapper">
           <div className="greeting">HI THERE</div>

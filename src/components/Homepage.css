@@ -1,6 +1,7 @@
 .deet-image-wrapper {
   display: flex;
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .details-wrapper {

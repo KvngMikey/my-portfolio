@@ -4,12 +4,17 @@ import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="aboutme-wrapper">
+    <div className="aboutme-wrapper" id="about">
       <h2 className="about-header"> About Me </h2>
       <div className="about-body">
         Michael Ariwaodo is a passionate and goal driven Software Engineer whose
         interest is in using technology to build solutions to solve real world
-        problems.
+        problems. I'm a frontend developer who knows how to use code to
+        translate designs to pixel perfect reality. I have sufficient corporate
+        experience and I'm skilled in using React and Angular to write
+        well-designed, efficient and reusable code. I'm determined to learn a
+        lot daily and make a significant contribution to the goals and
+        objectives of any organization I work with.
       </div>
       <div>
         <a

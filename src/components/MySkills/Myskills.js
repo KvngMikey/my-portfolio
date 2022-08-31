@@ -3,7 +3,7 @@ import './Myskills.css';
 
 const Myskills = ({ icon, header, level }) => {
   return (
-    <div className="myskills-wrapper">
+    <div className="myskills-wrapper" id="myskills">
       <div className="icon">{icon}</div>
       <div className="header-wrapper">
         <div className="header">{header}</div>

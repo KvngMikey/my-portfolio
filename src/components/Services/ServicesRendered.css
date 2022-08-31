@@ -1,6 +1,8 @@
 .service-rendered-wrapper {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  width: 50%;
+  margin-bottom: 40px;
 }
 
 .title-wrapper {
@@ -14,8 +16,8 @@
 .title {
   font-family: 'Roboto';
   color: #000000;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 22px;
   line-height: 28.13px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -25,7 +27,7 @@
   color: #4d4d4d;
   font-family: 'Manrope';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 27px;
-  width: 36%;
+  width: 60%;
 }

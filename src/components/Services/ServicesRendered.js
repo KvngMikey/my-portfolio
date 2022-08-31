@@ -3,7 +3,7 @@ import './ServicesRendered.css';
 
 const ServicesRendered = ({ image, title, body }) => {
   return (
-    <div className="service-rendered-wrapper">
+    <div className="service-rendered-wrapper" id="services">
       <img src={image} className="picture" alt="training" />
 
       <div className="title-wrapper">
