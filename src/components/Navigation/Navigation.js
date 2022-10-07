@@ -17,14 +17,14 @@ const Navigation = () => {
             <Nav.Link className="nav-link" href="#about">
               About
             </Nav.Link>
-            <Nav.Link className="nav-link" href="#myskills">
+            <Nav.Link className="nav-link" href="#skills">
               Skills
             </Nav.Link>
             <Nav.Link className="nav-link" href="#services">
               Services
             </Nav.Link>
-            <Nav.Link className="nav-link" href="/contact">
-              Contact
+            <Nav.Link className="nav-link" href="#projects">
+              Projects
             </Nav.Link>
           </Nav>
         </Container>

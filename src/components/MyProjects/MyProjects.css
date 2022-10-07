@@ -1,0 +1,53 @@
+.project-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.stack-text {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.tag-icon {
+  color: black;
+}
+
+.tag-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.myprojects-wrapper {
+  height: 260px !important;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1em;
+  padding: 1.8rem 2.4rem;
+  background: #eff2f5;
+  border-radius: 4px;
+  /* cursor: pointer; */
+  height: 100%;
+}
+
+.first-tag {
+  margin-right: 25px;
+}
+
+.a-tag {
+  color: #000000;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.a-tag:hover {
+  color: #000000;
+}
+
+.tag-icon {
+  margin-right: 5px;
+}

@@ -17,7 +17,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <h2 className="skills-header"> My Skills </h2>
       <p className="sub-header"> Here are a few skills I possess </p>
 

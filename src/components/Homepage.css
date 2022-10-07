@@ -42,7 +42,8 @@
   margin-right: 20px;
 }
 
-.linkedin-tag {
+.linkedin-tag,
+.twitter-tag {
   margin-right: 20px;
 }
 
@@ -53,7 +54,8 @@
 }
 
 .linkedin,
-.twitter {
+.twitter,
+.email {
   margin-top: -4px;
   font-size: 21px;
 }

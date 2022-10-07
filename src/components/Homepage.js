@@ -1,10 +1,11 @@
 import React from 'react';
 import './Homepage.css';
 import About from '../pages/About';
-import Contact from '../pages/Contact';
+import Projects from '../pages/Projects';
 import Services from '../pages/Services';
 import Skills from '../pages/Skills';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { MdOutlineMail } from 'react-icons/md';
 import pic from '../components/assets/mypic.JPG';
 const Homepage = () => {
   return (
@@ -27,9 +28,16 @@ const Homepage = () => {
             <a
               href="https://twitter.com/_mykhael"
               target="blank"
-              className="icon-tag"
+              className="icon-tag twitter-tag"
             >
               <FaTwitter className="twitter" />
+            </a>
+            <a
+              href="https://contact.mikeariwaodo@gmail.com"
+              target="blank"
+              className="icon-tag"
+            >
+              <MdOutlineMail className="email" />
             </a>
           </div>
         </div>
@@ -42,7 +50,7 @@ const Homepage = () => {
       <About />
       <Skills />
       <Services />
-      <Contact />
+      <Projects />
     </div>
   );
 };
