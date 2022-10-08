@@ -20,9 +20,9 @@ const Navigation = () => {
             <Nav.Link className="nav-link" href="#skills">
               Skills
             </Nav.Link>
-            <Nav.Link className="nav-link" href="#services">
+            {/* <Nav.Link className="nav-link" href="#services">
               Services
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className="nav-link" href="#projects">
               Projects
             </Nav.Link>

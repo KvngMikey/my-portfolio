@@ -10,15 +10,13 @@ import Skills from './pages/Skills';
 function App() {
   return (
     <Router>
-      <div className="App container">
-        <Navigation sticky="top" />
-      </div>
+      <div className="App container">{/* <Navigation sticky="top" /> */}</div>
 
       <Routes>
         <Route exact path="/" element={<Homepage />}></Route>
         <Route exact path="about" element={<About />}></Route>
         <Route exact path="contact" element={<Projects />}></Route>
-        <Route exact path="services" element={<Services />}></Route>
+        {/* <Route exact path="services" element={<Services />}></Route> */}
         <Route exact path="skills" element={<Skills />}></Route>
       </Routes>
     </Router>

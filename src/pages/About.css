@@ -1,46 +1,56 @@
 .aboutme-wrapper {
   text-align: center;
+  display: flex;
   margin-bottom: 70px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-header {
-  font-weight: 600;
-  font-size: 37px;
+  font-weight: 500;
+  font-size: 35px;
   line-height: 66px;
   color: #000000;
   margin-bottom: 0px;
-}
-.about-header,
-.about-body,
-.whatsapp-btn-text {
-  font-family: 'Manrope';
 }
 
 .about-body {
   font-size: 20px;
   color: #4d4d4d;
-  width: 86%;
+  width: 60%;
   display: inline-flex;
   margin-bottom: 18px;
 }
-.github-tag {
+
+/* .github-tag {
   margin-left: 20px;
-}
+} */
 
 .whatsapp-btn {
   width: 145px;
   height: 43px;
-  margin-top: 20px;
+  background-color: #eff2f5;
+  border-radius: 22px;
+  padding: 6px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .whatsapp-btn-text {
   font-size: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .whatsapp-btn:hover {
-  background-color: #0d6efd;
+  background-color: black;
+  color: white;
 }
 
 .whatsapp-btn-text:hover {

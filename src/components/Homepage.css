@@ -12,9 +12,9 @@
 
 .greeting,
 .intro {
-  font-family: 'Manrope';
+  /* font-family: 'Manrope'; */
   letter-spacing: 0.03em;
-  color: #2351dc;
+  /* color: #2351dc; */
   margin-bottom: 10px;
 }
 
@@ -25,19 +25,20 @@
 }
 
 .intro {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 33px;
   text-transform: uppercase;
 }
 
 .job {
-  font-family: 'Manrope';
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 72px;
+  /* font-family: 'Manrope'; */
+  font-weight: 500;
+  font-size: 40px;
+  width: 77%;
+  /* line-height: 72px;
   letter-spacing: -0.03em;
-  color: #000000;
+  color: #000000; */
   margin-bottom: 23px;
   margin-right: 20px;
 }
@@ -62,4 +63,12 @@
 
 .mypic {
   height: 600px;
+}
+
+.nav-link {
+  /* font-family: 'Manrope'; */
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #000000 !important;
+  /* margin-right: 30px; */
 }

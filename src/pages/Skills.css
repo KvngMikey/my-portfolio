@@ -3,27 +3,12 @@
 }
 
 .skills-header {
-  font-family: Manrope;
-  font-size: 40px;
-  font-weight: 600;
+  /* font-family: Manrope; */
+  font-size: 30px;
+  font-weight: 500;
   margin: 12px;
-  /* line-height: 66px;
-  letter-spacing: -0.03em; */
-  text-align: left;
-  color: #000000;
-  margin-left: 0;
 }
 
-.sub-header {
-  font-family: Manrope;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #4d4d4d;
-  margin-top: 0px;
-}
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;

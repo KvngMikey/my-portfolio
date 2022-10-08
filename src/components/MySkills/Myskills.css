@@ -4,25 +4,34 @@
   margin-bottom: 15px;
 }
 
+.round {
+  width: 100px;
+  height: 87px;
+  background-color: #eff2f5;
+  border-radius: 22px;
+  padding: 6px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out 0s;
+}
+
 .header-wrapper {
   text-align: justify;
   margin-top: 10px;
   margin-left: 10px;
 }
 .icon {
-  color: #2351dc;
-  font-size: 50px;
-  /* background-color: #edf1fc;
-  border-radius: 15px; */
-  height: 70px;
+  font-size: 35px;
 }
 
 .header {
-  font-family: Manrope;
-  font-size: 24px;
+  /* font-family: Manrope; */
+  font-size: 17px;
   font-weight: 600;
-  /* line-height: 33px;
-  letter-spacing: -0.02em;
-  text-align: left; */
   color: #000000;
 }
