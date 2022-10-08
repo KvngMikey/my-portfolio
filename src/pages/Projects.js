@@ -1,7 +1,6 @@
 import React from 'react';
 import MyProjects from '../components/MyProjects/MyProjects';
 import './Projects.css';
-import figmaland from '../components/assets/figmaland-pic.png';
 
 const Projects = () => {
   return (

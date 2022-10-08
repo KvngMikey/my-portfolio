@@ -16,7 +16,7 @@ const Homepage = () => {
         <div className="details-wrapper">
           {/* <div className="greeting">HI THERE</div> */}
           <h3 className="intro">Michael Ariwaodo</h3>
-          <h2 className="job">A Top-notch Frontend Software Developer.</h2>
+          <h2 className="job">Frontend Software Developer.</h2>
           <div>
             <a
               href="https://linkedin.com/in/michael-ariwaodo-7b65521b1"
@@ -42,20 +42,36 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="content--wrapper">
+        <div className="content--wrapper d-none d-md-flex">
           <span>Content</span>
           <ul>
-            <li>
-              <a href="#home">1 ------ Home</a>
+            <li className="d-flex">
+              <a href="#home" className="content-tag">
+                <span>1</span>
+                <span></span>
+                <span>Home</span>
+              </a>
             </li>
-            <li>
-              <a href="#about">2 ------ About</a>
+            <li className="d-flex">
+              <a href="#about" className="content-tag">
+                <span>2</span>
+                <span></span>
+                <span>About</span>
+              </a>
             </li>
-            <li>
-              <a href="#skills">3 ------ Skills</a>
+            <li className="d-flex">
+              <a href="#skills" className="content-tag">
+                <span>3</span>
+                <span></span>
+                <span>Skills</span>
+              </a>
             </li>
-            <li>
-              <a href="#projects">4 ------ Projects</a>
+            <li className="d-flex">
+              <a href="#projects" className="content-tag">
+                <span>4</span>
+                <span></span>
+                <span>Projects</span>
+              </a>
             </li>
           </ul>
         </div>

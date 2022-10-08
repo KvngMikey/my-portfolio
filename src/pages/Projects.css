@@ -7,9 +7,10 @@
 
 .projects-wrapper {
   display: grid;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 300px));
+  margin-top: 25px;
 }
 
 @media (min-width: 696px) {
