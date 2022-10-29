@@ -3,7 +3,8 @@
   font-weight: 700;
 }
 
-.stack-text {
+.stack-text,
+.desc-text {
   font-size: 17px;
   font-weight: 600;
   font-style: italic;
@@ -50,4 +51,8 @@
 
 .tag-icon {
   margin-right: 5px;
+}
+
+.desc-text {
+  /* display: none; */
 }

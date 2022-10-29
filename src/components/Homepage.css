@@ -1,7 +1,7 @@
 .deet-image-wrapper {
   display: flex;
   margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 40px;
   justify-content: space-between;
 }
 
@@ -86,9 +86,40 @@
 
 .content-tag {
   color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .content-tag:hover {
-  color: #333333 !important;
-  opacity: 0.6;
+  /* color: #333333 !important;
+  opacity: 0.6; */
+
+  transition: all 0.3s ease-in 0s;
+  color: rgb(155, 155, 155);
+  width: 10rem;
+}
+
+ul {
+  padding-left: 0rem !important;
+}
+
+.content-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hr-rule {
+  border-bottom: 1px solid #333333;
+  width: 4rem;
+  margin: 0px 0.8rem;
+}
+
+.hr-rule:hover {
+  transition: all 0.3s ease-out 0s;
+  border-bottom: 1px solid rgb(155, 155, 155);
+  width: 5rem;
 }

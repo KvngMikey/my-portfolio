@@ -9,6 +9,7 @@ import { MdOutlineMail } from 'react-icons/md';
 import pic from '../components/assets/mypic.JPG';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Footer from './Footer/Footer';
 const Homepage = () => {
   return (
     <div className="container" id="home">
@@ -43,33 +44,33 @@ const Homepage = () => {
         </div>
 
         <div className="content--wrapper d-none d-md-flex">
-          <span>Content</span>
+          <span className="content-text">Content</span>
           <ul>
             <li className="d-flex">
               <a href="#home" className="content-tag">
-                <span>1</span>
-                <span></span>
+                <span>01</span>
+                <span className="hr-rule"></span>
                 <span>Home</span>
               </a>
             </li>
             <li className="d-flex">
               <a href="#about" className="content-tag">
-                <span>2</span>
-                <span></span>
+                <span>02</span>
+                <span className="hr-rule"></span>
                 <span>About</span>
               </a>
             </li>
             <li className="d-flex">
               <a href="#skills" className="content-tag">
-                <span>3</span>
-                <span></span>
+                <span>03</span>
+                <span className="hr-rule"></span>
                 <span>Skills</span>
               </a>
             </li>
             <li className="d-flex">
               <a href="#projects" className="content-tag">
-                <span>4</span>
-                <span></span>
+                <span>04</span>
+                <span className="hr-rule"></span>
                 <span>Projects</span>
               </a>
             </li>
@@ -81,6 +82,7 @@ const Homepage = () => {
       <Skills />
       {/* <Services /> */}
       <Projects />
+      <Footer />
     </div>
   );
 };

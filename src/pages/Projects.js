@@ -9,6 +9,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <div className="projects-wrapper">
           <MyProjects
+            // desc="hi"
             proTitle="myDiceGame"
             stack="Javascript"
             demoBtn="https://mike-dice-game.vercel.app/"

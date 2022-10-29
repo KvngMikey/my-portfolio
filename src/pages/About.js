@@ -7,7 +7,7 @@ const About = () => {
     <div className="aboutme-wrapper" id="about">
       <h2 className="about-header"> About </h2>
       <div className="about-body">
-        I'm a passionate and goal driven Software Engineer whose interest is in
+        I'm a passionate and goal driven Software Developer whose interest is in
         using technology to build solutions to solve real world problems.
       </div>
       <div>

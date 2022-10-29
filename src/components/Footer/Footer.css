@@ -1,0 +1,67 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-top: 10%;
+}
+
+.h-rule {
+  border-bottom: 2px solid #333333;
+  width: 100%;
+  margin: 0px 0rem 1rem 0rem;
+}
+
+.name-link {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.username,
+.link-name {
+  font-size: 13px;
+  color: #333333;
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+.copy-icon {
+  color: #333333;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  margin-top: 3px;
+}
+
+.git-linked {
+  margin-right: 15px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .footer-wrapper {
+    margin-top: 84%;
+  }
+
+  .name-link {
+    flex-direction: row;
+  }
+
+  .username,
+  .link-name {
+    font-size: 15px;
+  }
+
+  .links {
+    margin-top: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .footer-wrapper {
+    margin-top: 30%;
+  }
+}
